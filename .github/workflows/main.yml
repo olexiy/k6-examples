@@ -12,5 +12,6 @@ jobs:
         uses: k6io/action@v0.1
         with:
           filename: introduction-demo.js
+          flags: --out influxdb= http://27b2-84-63-219-214.ngrok.io
       
 
